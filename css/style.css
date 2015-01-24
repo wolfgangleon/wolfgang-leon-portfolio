@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+h1,h2,p,h3,ul {
+	font-family: 'open sans condensed', sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	line-height: 140%;
+	font-size: 1.2rem;
+}
+
+.introduction, .bio, .web {
+	margin:0 25% 0 25%;
+	padding: 1rem;
+	border-left:1px solid lightgray;
+	border-right: 1px solid lightgray;
+
+}
+
+																/* Masthead */
+
+.masthead {
+	padding: 6rem;
+	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/background.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-bottom: 2px solid lightgray;
+}
+
+.masthead .title {
+	margin:0 auto;
+	background: #ffffff;
+	border:0.5rem solid #444948;
+	border-radius: 50%;
+	height: 20rem;
+	width: 20rem;
+	top: 50%;
+	position: relative;
+	text-transform: uppercase;
+	color: #444948;
+}
+
+.masthead .title  h1, .title h2 {
+	text-align: center;
+	position: relative;
+	top: 30.05%;
+	font-size: 3rem;
+}
+
+
+															/* end of masthead */
+
+.introduction .content {
+	margin-top: 3rem;
+}
+
+.introduction .content h2 {
+	border-bottom: 1px solid lightgray;
+	margin: 1rem 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #444948;
+}
+
+.introduction .content h2 span {
+	border-bottom: 1px solid #444948;
+}
+
+															/* BIO */
+
+.bio .content h2 {
+	border-bottom: 1px solid lightgray;
+	margin: 1rem 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #444948;
+}
+
+.bio .content h2 span {
+	border-bottom: 1px solid #444948;
+}
+															/*         WEB      */
+
+.web .content h2 {
+	border-bottom: 1px solid lightgray;
+	margin: 1rem 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #444948;
+}
+
+.web .content h2 span {
+	border-bottom: 1px solid #444948;
+}
+
+.web .content ul {
+	text-align: center;
+	padding: 6rem;
+}
+
+.web .content ul li {
+	display: inline;
+	border:1rem solid #444948;
+	height: 18rem;	
+	width: 18rem;
+	border-radius: 50%;
+	position: relative;
+	z-index: 10;
+
+
+}
+
+																/* Footer */
+.footer {
+	padding: 4rem;
+}
+
+.footer .content h3 {
+	text-align: center;
+}
+
+.footer .content ul {
+	text-align: center;
+	margin: 0 auto;
+	padding:2rem;
+}
+
+.footer .content li {
+	display: inline;
+	margin-left: 1rem;
+
+}
+
+.footer .content p {
+	text-align: center;
+	text-transform: uppercase;
+}
