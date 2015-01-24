@@ -42,6 +42,9 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	background-color: rgba(238, 229, 222, 0.4);
+}
 
 h1,h2,p,h3,ul {
 	font-family: 'open sans condensed', sans-serif;
@@ -56,6 +59,7 @@ h1,h2,p,h3,ul {
 	padding: 1rem;
 	border-left:1px solid lightgray;
 	border-right: 1px solid lightgray;
+	background-color:#ffffff; 
 
 }
 
@@ -64,7 +68,7 @@ h1,h2,p,h3,ul {
 .masthead {
 	padding: 6rem;
 	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/background.jpg') no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	border-bottom: 2px solid lightgray;
 }
@@ -72,7 +76,7 @@ h1,h2,p,h3,ul {
 .masthead .title {
 	margin:0 auto;
 	background: #ffffff;
-	border:0.5rem solid #444948;
+	border:0.3rem solid #444948;
 	border-radius: 50%;
 	height: 20rem;
 	width: 20rem;
@@ -142,19 +146,37 @@ h1,h2,p,h3,ul {
 
 .web .content ul li {
 	display: inline;
-	border:1rem solid #444948;
-	height: 18rem;	
-	width: 18rem;
+	border:0.3rem solid #444948;
 	border-radius: 50%;
 	position: relative;
-	z-index: 10;
-
-
+	padding: 3rem 4rem;
+	margin-left: 1rem;
 }
+
+.web .content ul .karma {
+	background:url('file:///C:/Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/Karma-clone.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.web .content ul .times {
+	background:url('file:///C:/Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/hackthetimes.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.web .content ul .me {
+	background:url('file:///C:/Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/me.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 
 																/* Footer */
 .footer {
 	padding: 4rem;
+	background-color: rgba(68,73,72,0.3); 
+	border-top: 2px solid lightgray;
 }
 
 .footer .content h3 {
