@@ -74,9 +74,7 @@ h1,h2,p,h3,ul {
 }
 
 .masthead .title {
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/back.jpg') no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-color: rgba(255,255,255, 0.4);
 	margin:0 auto;
 	border:0.3rem solid #444948;
 	border-radius: 50%;
