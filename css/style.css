@@ -67,7 +67,7 @@ h1,h2,p,h3,ul {
 
 .masthead {
 	padding: 6rem;
-	background: url('https://raw.githubusercontent.com/wolfgangleon/wolfgang-leon-portfolio/gh-pages/img/background.jpg') no-repeat;
+	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/background.jpg') no-repeat;
 	background-position: top;
 	background-size: cover;
 	border-bottom: 2px solid lightgray;
