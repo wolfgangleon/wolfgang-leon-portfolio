@@ -67,7 +67,7 @@ h1,h2,p,h3,ul {
 
 .masthead {
 	padding: 6rem;
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/background.jpg') no-repeat;
+	background: url("../img/background.jpg") no-repeat;
 	background-position: top;
 	background-size: cover;
 	border-bottom: 2px solid lightgray;
@@ -154,12 +154,15 @@ h1,h2,p,h3,ul {
 	z-index: 10
 }
 
-.web .content .project article a span {
-	padding: 0.5rem;
+.web .content .project article a  {
+	position: absolute;
+	height: 204px;
+	width: 204px;
+	margin: -102px 0 3rem -102px;
 }
 
 .web .content .project .karma {
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/bwkarma.jpg') no-repeat;
+	background: url('../img/bwkarma.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 
@@ -167,7 +170,7 @@ h1,h2,p,h3,ul {
 
 .web .content .project .karma:hover {
 	-webkit-transition:all 0.5s ease-in;
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/karma-clone.png') no-repeat;
+	background: url('../img/karma-clone.png') no-repeat;
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;
@@ -175,14 +178,14 @@ h1,h2,p,h3,ul {
 }
 
 .web .content .project .times {
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/bwtimes.jpg') no-repeat;
+	background: url('../img/bwtimes.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .web .content .project .times:hover {
 	-webkit-transition:all 0.5s ease-in;
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/hackthetimes.png') no-repeat;
+	background: url('../img/hackthetimes.png') no-repeat;
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;
@@ -191,14 +194,14 @@ h1,h2,p,h3,ul {
 
 
 .web .content .project .about {
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/bwme.jpg') no-repeat;
+	background: url('../img/bwme.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .web .content .project .about:hover {
 	-webkit-transition:all 0.5s ease-in;
-	background: url('file:///C:Users/wolfgang/Desktop/Coding/Thinkful/Portfolio/img/me.png') no-repeat;
+	background: url('../img/me.png') no-repeat;
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;
