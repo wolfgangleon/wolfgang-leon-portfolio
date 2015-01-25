@@ -170,6 +170,7 @@ h1,h2,p,h3,ul {
 
 .web .content .project .karma:hover {
 	-webkit-transition:all 0.5s ease-in;
+	transition:all 0.5s ease-in;
 	background: url('../img/karma-clone.png') no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -185,6 +186,7 @@ h1,h2,p,h3,ul {
 
 .web .content .project .times:hover {
 	-webkit-transition:all 0.5s ease-in;
+	transition:all 0.5s ease-in;
 	background: url('../img/hackthetimes.png') no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -201,6 +203,7 @@ h1,h2,p,h3,ul {
 
 .web .content .project .about:hover {
 	-webkit-transition:all 0.5s ease-in;
+	transition:all 0.5s ease-in;
 	background: url('../img/me.png') no-repeat;
 	background-size: cover;
 	background-position: center;
