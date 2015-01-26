@@ -126,7 +126,7 @@ h1,h2,p,h3,ul {
 	border-bottom: 1px solid #444948;
 }
 															/*         WEB      */
-@media only screen and (max-width: 1170px) {
+@media screen and (max-width: 1170px) {
 	.web .content {
 		margin-bottom: 15rem;
 }
