@@ -204,7 +204,12 @@ h1,h2,p,h3,ul {
 
 @media only screen and (max-width: 1170px) {
 	.web .content {
-		margin-bottom: 15rem;
+		margin: 0 0 14rem 0;
+	}
+
+	.web .content .project article {
+		padding-top: 2rem;
+		margin: 0 auto 3rem auto;
 	}
 }
 
