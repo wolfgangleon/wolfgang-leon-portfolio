@@ -64,7 +64,6 @@ h1,h2,p,h3,ul {
 }
 
 																/* Masthead */
-
 .masthead {
 	padding: 6rem;
 	background: url("../img/background.jpg") no-repeat;
@@ -127,6 +126,10 @@ h1,h2,p,h3,ul {
 	border-bottom: 1px solid #444948;
 }
 															/*         WEB      */
+@media only screen and (max-width: 1170px) {
+	.web .content {
+		margin-bottom: 15rem;
+}
 
 .web .content {
 	padding-bottom: 30rem;
