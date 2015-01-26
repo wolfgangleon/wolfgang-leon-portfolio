@@ -70,6 +70,7 @@ h1,h2,p,h3,ul {
 	background-position: top;
 	background-size: cover;
 	border-bottom: 2px solid lightgray;
+	position: relative;
 }
 
 .masthead .title {
@@ -104,7 +105,20 @@ h1,h2,p,h3,ul {
 
 .masthead nav .content ul li {
 	background-color: rgba(255,255,255, 0.7);
-	
+	position: absolute;
+	z-index: 10;
+	margin: 3rem 0 0 -6rem;
+	float: right;
+	text-align: center;
+	width: 100%;
+}
+
+.masthead nav .content ul li  {
+	display: inline-block;
+	padding: 0.7rem 10% 0.7rem 10%;
+	text-align: center;
+	font-size: 1.5rem;
+
 }
 
 .masthead nav .content ul li a {
@@ -115,13 +129,22 @@ h1,h2,p,h3,ul {
 	font-weight: bold;
 	color: #444948
 }
+
 .masthead nav .content ul li a h3:hover {
 	cursor: pointer;
 	color: gray;
 }
 
 
+.masthead nav .content ul li h3 {
+	font-weight: bold;
+}
 
+
+.masthead nav .content ul li :hover {
+	cursor: pointer;
+	color: gray;
+} 
 
 
 
@@ -157,14 +180,17 @@ h1,h2,p,h3,ul {
 	border-bottom: 1px solid #444948;
 }
 															/*         WEB      */
+
 @media only screen and (max-width: 1170px) {
 	.web .content {
 		margin-bottom: 15rem;
 	}
 }
+
 .web .content {
 	padding-bottom: 30rem;
 }
+
 
 .web .content h2 {
 	border-bottom: 1px solid lightgray;
@@ -244,6 +270,7 @@ h1,h2,p,h3,ul {
 	cursor: pointer;
 	border-color: #444948;
 }
+
 
 
 
