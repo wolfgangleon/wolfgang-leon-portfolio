@@ -100,26 +100,16 @@ h1,h2,p,h3,ul {
 	z-index: 10;	
 	width: 100%;
 	margin:0 0 0 -6rem;
+	padding: 1rem;
 	text-align: center;
+	background-color: rgba(255,255,255, 0.7);
 }
 
 .masthead nav .content ul li {
-	background-color: rgba(255,255,255, 0.7);
-	position: absolute;
-	z-index: 10;
-	margin: 3rem 0 0 -6rem;
-	float: right;
 	text-align: center;
-	width: 100%;
+	display: inline;
 }
 
-.masthead nav .content ul li  {
-	display: inline-block;
-	padding: 0.7rem 10% 0.7rem 10%;
-	text-align: center;
-	font-size: 1.5rem;
-
-}
 
 .masthead nav .content ul li a {
 	text-decoration: none;
@@ -136,15 +126,7 @@ h1,h2,p,h3,ul {
 }
 
 
-.masthead nav .content ul li h3 {
-	font-weight: bold;
-}
 
-
-.masthead nav .content ul li :hover {
-	cursor: pointer;
-	color: gray;
-} 
 
 
 
