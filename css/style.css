@@ -55,7 +55,7 @@ h1,h2,p,h3,ul {
 }
 
 .introduction, .bio, .web {
-	margin:0 25% 0 25%;
+	margin:0 20% 0 20%;
 	padding: 1rem;
 	border-left:1px solid lightgray;
 	border-right: 1px solid lightgray;
@@ -112,11 +112,10 @@ h1,h2,p,h3,ul {
 }
 
 .masthead nav .content ul li {
-	text-align: center;
+	text-align: left;
 	display: inline-block;
-	padding: 0.7rem 2.5% 0.7rem 0;
+	padding: 0.7rem 1.8% 0.7rem 0;
 }
-
 
 .masthead nav .content ul li a {
 	text-decoration: none;
