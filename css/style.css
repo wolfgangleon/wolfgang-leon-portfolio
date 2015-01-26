@@ -73,6 +73,12 @@ h1,h2,p,h3,ul {
 	position: relative;
 }
 
+@media only screen and (max-width: 1170px) {
+	.masthead {
+		padding:3rem;
+	}
+}
+
 .masthead .title {
 	background-color: rgba(255,255,255, 0.7);
 	margin:0 auto;
@@ -124,6 +130,25 @@ h1,h2,p,h3,ul {
 .masthead nav .content ul li a h3:hover {
 	cursor: pointer;
 	color: gray;
+}
+
+@media only screen and (max-width: 1170px) {
+
+	.masthead nav .content ul {
+	float: left;
+	position: fixed;
+	z-index: 10;	
+	width: 100%;
+	margin:3rem 0 0 -3rem;
+	text-align: right;
+	background-color: rgba(255,255,255, 0.7);
+	}
+
+	.masthead nav .content ul li {
+		text-align: right;
+		padding: 0.7rem 2.5% 0.7rem 0;
+		display: list-item;
+	}
 }
 
 
