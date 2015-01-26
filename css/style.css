@@ -73,7 +73,7 @@ h1,h2,p,h3,ul {
 }
 
 .masthead .title {
-	background-color: rgba(255,255,255, 0.4);
+	background-color: rgba(255,255,255, 0.7);
 	margin:0 auto;
 	border:0.4rem solid #444948;
 	border-radius: 50%;
@@ -92,6 +92,37 @@ h1,h2,p,h3,ul {
 	top: 30.05%;
 	font-size: 3.5rem;
 }
+
+.masthead nav .content ul {
+	float: left;
+	position: absolute;
+	z-index: 10;	
+	width: 100%;
+	margin:0 0 0 -6rem;
+	text-align: center;
+}
+
+.masthead nav .content ul li {
+	background-color: rgba(255,255,255, 0.7);
+	
+}
+
+.masthead nav .content ul li a {
+	text-decoration: none;
+}
+
+.masthead nav .content ul li a h3{
+	font-weight: bold;
+	color: #444948
+}
+.masthead nav .content ul li a h3:hover {
+	cursor: pointer;
+	color: gray;
+}
+
+
+
+
 
 
 															/* end of masthead */
@@ -129,8 +160,8 @@ h1,h2,p,h3,ul {
 @media only screen and (max-width: 1170px) {
 	.web .content {
 		margin-bottom: 15rem;
+	}
 }
-
 .web .content {
 	padding-bottom: 30rem;
 }
@@ -220,29 +251,29 @@ h1,h2,p,h3,ul {
 
 
 																/* Footer */
-.footer {
+footer {
 	padding: 4rem;
 	background-color: rgba(68,73,72,0.3); 
 	border-top: 2px solid lightgray;
 }
 
-.footer .content h3 {
+footer .content h3 {
 	text-align: center;
 }
 
-.footer .content ul {
+footer .content ul {
 	text-align: center;
 	margin: 0 auto;
 	padding:2rem;
 }
 
-.footer .content li {
+footer .content li {
 	display: inline;
 	margin-left: 1rem;
 
 }
 
-.footer .content p {
+footer .content p {
 	text-align: center;
 	text-transform: uppercase;
 }
