@@ -104,11 +104,16 @@ h1,h2,p,h3,ul {
 	width: 100%;
 }
 
-.masthead nav .content ul li {
+.masthead nav .content ul li  {
 	display: inline-block;
 	padding: 0.7rem 10% 0.7rem 10%;
 	text-align: center;
 	font-size: 1.5rem;
+	
+}
+
+.masthead nav .content ul li a {
+	text-decoration: none;
 	color: #444948;
 }
 
@@ -116,7 +121,8 @@ h1,h2,p,h3,ul {
 	font-weight: bold;
 }
 
-.masthead nav .content ul li:hover {
+
+.masthead nav .content ul li :hover {
 	cursor: pointer;
 	color: gray;
 } 
@@ -252,29 +258,29 @@ h1,h2,p,h3,ul {
 
 
 																/* Footer */
-.footer {
+footer {
 	padding: 4rem;
 	background-color: rgba(68,73,72,0.3); 
 	border-top: 2px solid lightgray;
 }
 
-.footer .content h3 {
+footer .content h3 {
 	text-align: center;
 }
 
-.footer .content ul {
+footer .content ul {
 	text-align: center;
 	margin: 0 auto;
 	padding:2rem;
 }
 
-.footer .content li {
+footer .content li {
 	display: inline;
 	margin-left: 1rem;
 
 }
 
-.footer .content p {
+footer .content p {
 	text-align: center;
 	text-transform: uppercase;
 }
