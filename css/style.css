@@ -149,6 +149,10 @@ h1,h2,p,h3,ul {
 		padding: 0.7rem 2.5% 0.7rem 0;
 		display: list-item;
 	}
+
+	.masthead nav .content ul li a h3 {
+		font-size: 2rem;
+	}
 }
 
 
