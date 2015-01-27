@@ -54,7 +54,7 @@ h1,h2,p,h3,ul {
 	font-size: 1.2rem;
 }
 
-.introduction, .bio, .web {
+#introduction, #bio, #web {
 	margin:0 20% 0 20%;
 	padding: 1rem;
 	border-left:1px solid lightgray;
@@ -64,7 +64,7 @@ h1,h2,p,h3,ul {
 }
 
 @media screen and (max-width: 1170px)  {
-	.introduction, .bio, .web {
+	#introduction, #bio, #web {
 		margin:0 10% 0 10%;
 	}
 	
@@ -172,16 +172,16 @@ h1,h2,p,h3,ul {
 
 															/* end of masthead */
 
-.introduction {
+#introduction {
 	z-index: 20;
 	position: relative;
 }
 
-.introduction .content {
+#introduction .content {
 	margin-top: 3rem;
 }
 
-.introduction .content h2 {
+#introduction .content h2 {
 	border-bottom: 1px solid lightgray;
 	margin: 1rem 0;
 	text-transform: uppercase;
@@ -189,17 +189,17 @@ h1,h2,p,h3,ul {
 	color: #444948;
 }
 
-.introduction .content h2 span {
+#introduction .content h2 span {
 	border-bottom: 1px solid #444948;
 }
 
 															/* BIO */
-.bio {
+#bio {
 	z-index: 20;
 	position: relative;
 }
 
-.bio .content h2 {
+#bio .content h2 {
 	border-bottom: 1px solid lightgray;
 	margin: 1rem 0;
 	text-transform: uppercase;
@@ -207,17 +207,17 @@ h1,h2,p,h3,ul {
 	color: #444948;
 }
 
-.bio .content h2 span {
+#bio .content h2 span {
 	border-bottom: 1px solid #444948;
 }
 															/*         WEB      */
 
 @media only screen and (max-width: 1170px) {
-	.web .content {
+	#web .content {
 		margin: 0 0 26rem 0;
 	}
 
-	.web .content .project article {
+	#web .content .project article {
 		float: left;
 		position: relative;
 		padding: 8rem;
@@ -228,17 +228,17 @@ h1,h2,p,h3,ul {
 	}
 }
 
-.web {
+#web {
 	z-index: 20;
 	position: relative;
 }
 
-.web .content {
+#web .content {
 	padding-bottom: 30rem;
 }
 
 
-.web .content h2 {
+#web .content h2 {
 	border-bottom: 1px solid lightgray;
 	margin: 1rem 0;
 	text-transform: uppercase;
@@ -246,11 +246,11 @@ h1,h2,p,h3,ul {
 	color: #444948;
 }
 
-.web .content h2 span {
+#web .content h2 span {
 	border-bottom: 1px solid #444948;
 }
 
-.web .content .project article {
+#web .content .project article {
 	float: left;
 	position: relative;
 	padding: 6rem;
@@ -260,21 +260,21 @@ h1,h2,p,h3,ul {
 	z-index: 10
 }
 
-.web .content .project article a  {
+#web .content .project article a  {
 	position: absolute;
 	height: 204px;
 	width: 204px;
 	margin: -102px 0 3rem -102px;
 }
 
-.web .content .project .karma {
+#web .content .project .karma {
 	background: url('../img/bwkarma.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 
 }
 
-.web .content .project .karma:hover {
+#web .content .project .karma:hover {
 	-webkit-transition:all 0.5s ease-in;
 	transition:all 0.5s ease-in;
 	background: url('../img/karma-clone.png') no-repeat;
@@ -284,13 +284,13 @@ h1,h2,p,h3,ul {
 	border-color: #444948;
 }
 
-.web .content .project .times {
+#web .content .project .times {
 	background: url('../img/bwtimes.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-.web .content .project .times:hover {
+#web .content .project .times:hover {
 	-webkit-transition:all 0.5s ease-in;
 	transition:all 0.5s ease-in;
 	background: url('../img/hackthetimes.png') no-repeat;
@@ -301,13 +301,13 @@ h1,h2,p,h3,ul {
 }
 
 
-.web .content .project .about {
+#web .content .project .about {
 	background: url('../img/bwme.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-.web .content .project .about:hover {
+#web .content .project .about:hover {
 	-webkit-transition:all 0.5s ease-in;
 	transition:all 0.5s ease-in;
 	background: url('../img/me.png') no-repeat;
