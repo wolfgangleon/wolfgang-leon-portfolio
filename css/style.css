@@ -63,6 +63,13 @@ h1,h2,p,h3,ul {
 
 }
 
+@media screen and (max-width: 1170px)  {
+	.introduction, .bio, .web {
+		margin:0 10% 0 10%;
+	}
+	
+}
+
 																/* Masthead */
 .masthead {
 	padding: 6rem;
@@ -106,15 +113,16 @@ h1,h2,p,h3,ul {
 	position: fixed;
 	z-index: 10;	
 	width: 100%;
-	margin:3rem 0 0 -6rem;
-	text-align: right;
+	margin:-6rem 0 0 -6rem;
+	text-align: center;
 	background-color: rgba(255,255,255, 0.7);
+	z-index: 9999;
 }
 
 .masthead nav .content ul li {
 	text-align: left;
 	display: inline-block;
-	padding: 0.7rem 1.8% 0.7rem 0;
+	padding: 0.7rem 10% 0.7rem 10%;
 }
 
 .masthead nav .content ul li a {
@@ -123,7 +131,8 @@ h1,h2,p,h3,ul {
 
 .masthead nav .content ul li a h3{
 	font-weight: bold;
-	color: #444948
+	color: #444948;
+	font-size: 1.5rem;
 }
 
 .masthead nav .content ul li a h3:hover {
@@ -136,21 +145,23 @@ h1,h2,p,h3,ul {
 	.masthead nav .content ul {
 	float: left;
 	position: fixed;
-	z-index: 10;	
+	z-index: 50;	
 	width: 100%;
-	margin:3rem 0 0 -3rem;
-	text-align: right;
+	margin:-3rem 0 0 -3rem;
+	text-align: center;
 	background-color: rgba(255,255,255, 0.7);
+
 	}
 
 	.masthead nav .content ul li {
-		text-align: right;
-		padding: 0.7rem 2.5% 0.7rem 0;
-		display: list-item;
+		
+		text-align: center;
+		padding: 0 5% 0.5rem 5%;
+		display: inline-block;
 	}
 
 	.masthead nav .content ul li a h3 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 }
 
@@ -203,12 +214,17 @@ h1,h2,p,h3,ul {
 
 @media only screen and (max-width: 1170px) {
 	.web .content {
-		margin: 0 0 14rem 0;
+		margin: 0 0 26rem 0;
 	}
 
 	.web .content .project article {
-		padding-top: 2rem;
-		margin: 0 auto 3rem auto;
+		float: left;
+		position: relative;
+		padding: 8rem;
+		border:0.4rem solid lightgray;
+		border-radius: 50%;
+		margin: 0 0 3rem 12%;
+		z-index: 10
 	}
 }
 
