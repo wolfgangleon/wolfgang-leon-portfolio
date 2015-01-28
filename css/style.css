@@ -298,6 +298,10 @@ h1,h2,p,h3,ul,h4 {
 	border-bottom: 1px solid #444948;
 }
 
+#web .content .project {
+	margin:4rem 0 8rem 0;
+}
+
 
 #web .content .project .karma {
 	background: url('../img/bwkarma.jpg') no-repeat;
