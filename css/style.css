@@ -218,6 +218,13 @@ h1,h2,p,h3,ul {
 	z-index: 10
 }
 
+#web .content .project article a  {
+	position: absolute;
+	height: 204px;
+	width: 204px;
+	margin: -102px 0 3rem -102px;
+}
+
 @media only screen and (max-width: 1170px) {
 	#web .content {
 		margin: 0 0 38rem 0;
@@ -232,6 +239,13 @@ h1,h2,p,h3,ul {
 		margin: 0 0 3rem 6%;
 		z-index: 10
 	}
+
+	#web .content .project article a  {
+	position: absolute;
+	height: 332px;
+	width: 332px;
+	margin: -166px 0 3rem -166px;
+}
 }
 
 #web {
@@ -255,13 +269,6 @@ h1,h2,p,h3,ul {
 	border-bottom: 1px solid #444948;
 }
 
-
-#web .content .project article a  {
-	position: absolute;
-	height: 204px;
-	width: 204px;
-	margin: -102px 0 3rem -102px;
-}
 
 #web .content .project .karma {
 	background: url('../img/bwkarma.jpg') no-repeat;
