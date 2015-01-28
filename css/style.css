@@ -167,6 +167,9 @@ h1,h2,p,h3,ul,h4 {
 
 
 
+
+
+
 															/* end of masthead */
 
 #introduction {
@@ -207,7 +210,9 @@ h1,h2,p,h3,ul,h4 {
 #bio .content h2 span {
 	border-bottom: 1px solid #444948;
 }
+						
 															/*         WEB      */
+
 #web .content .project article {
 	float: left;
 	position: relative;
@@ -225,6 +230,7 @@ h1,h2,p,h3,ul,h4 {
 	margin: -102px 0 3rem -102px;
 }
 
+
 @media only screen and (max-width: 1170px) {
 	#web .content {
 		margin: 0 0 38rem 0;
@@ -237,7 +243,7 @@ h1,h2,p,h3,ul,h4 {
 		border:0.4rem solid lightgray;
 		border-radius: 50%;
 		margin: 0 0 3rem 6%;
-		z-index: 10
+		z-index: 10;
 	}
 
 	#web .content .project article a  {
@@ -246,7 +252,6 @@ h1,h2,p,h3,ul,h4 {
 	width: 332px;
 	margin: -166px 0 3rem -166px;
 }
-
 	#web .content .project .karma .ktitle, .about .atitle {
 		position: absolute;
 		margin: -2rem 0 0 70%;
@@ -269,9 +274,7 @@ h1,h2,p,h3,ul,h4 {
 		line-height: 7rem;
 		text-transform: uppercase;
 	}
-
 }
-
 
 #web {
 	z-index: 20;
@@ -281,6 +284,8 @@ h1,h2,p,h3,ul,h4 {
 #web .content {
 	padding-bottom: 30rem;
 }
+
+
 
 #web .content h2 {
 	border-bottom: 1px solid lightgray;
@@ -292,6 +297,10 @@ h1,h2,p,h3,ul,h4 {
 
 #web .content h2 span {
 	border-bottom: 1px solid #444948;
+}
+
+#web .content .project {
+	margin:4rem 0 8rem 0;
 }
 
 
