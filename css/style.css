@@ -252,6 +252,28 @@ h1,h2,p,h3,ul {
 	width: 332px;
 	margin: -166px 0 3rem -166px;
 }
+	#web .content .project .karma .ktitle, .about .atitle {
+		position: absolute;
+		margin: -2rem 0 0 70%;
+	}
+
+	#web .content .project .karma .ktitle .karmatitle, .about .atitle .abouttitle {
+		position: absolute;
+		color:#444948;
+		font-size: 3rem;
+		line-height: 0rem;
+		text-transform: uppercase;
+
+
+	}
+
+	#web .content .project .karma .ktitle .subkarmatitle, .about .atitle .metitle {
+		position: absolute;
+		color:#444948;
+		font-size: 3rem;
+		line-height: 7rem;
+		text-transform: uppercase;
+	}
 }
 
 #web {
