@@ -252,12 +252,12 @@ h1,h2,p,h3,ul,h4 {
 	width: 332px;
 	margin: -166px 0 3rem -166px;
 }
-	#web .content .project .karma .ktitle, .about .atitle {
+	#web .content .project .karma .ktitle, .about .atitle, .times .timtitle {
 		position: absolute;
 		margin: -2rem 0 0 80%;
 	}
 
-	#web .content .project .karma .ktitle .karmatitle, .about .atitle .abouttitle {
+	#web .content .project .karma .ktitle .karmatitle, .about .atitle .abouttitle, .times .timtitle .hacktitle {
 		position: absolute;
 		color:#444948;
 		font-size: 4rem;
@@ -267,12 +267,16 @@ h1,h2,p,h3,ul,h4 {
 
 	}
 
-	#web .content .project .karma .ktitle .subkarmatitle, .about .atitle .metitle {
+	#web .content .project .karma .ktitle .subkarmatitle, .about .atitle .metitle, .times .timtitle .subhack {
 		position: absolute;
 		color:#444948;
 		font-size: 3rem;
 		line-height: 7rem;
 		text-transform: uppercase;
+	}
+
+	#web .content .project .times .timtitle .subhack span {
+		font-size: 2rem;
 	}
 }
 
