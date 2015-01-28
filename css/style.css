@@ -82,7 +82,7 @@ h1,h2,p,h3,ul {
 
 @media only screen and (max-width: 1170px) {
 	.masthead {
-		padding:3rem;
+		padding:6rem;
 	}
 }
 
@@ -147,7 +147,7 @@ h1,h2,p,h3,ul {
 	position: fixed;
 	z-index: 50;	
 	width: 100%;
-	margin:-3rem 0 0 -3rem;
+	margin:-6rem 0 0 -6rem;
 	text-align: center;
 	background-color: rgba(255,255,255, 0.7);
 
@@ -210,7 +210,18 @@ h1,h2,p,h3,ul {
 #bio .content h2 span {
 	border-bottom: 1px solid #444948;
 }
+						
 															/*         WEB      */
+
+#web .content .project article {
+	float: left;
+	position: relative;
+	padding: 6rem;
+	border:0.4rem solid lightgray;
+	border-radius: 50%;
+	margin: 0 0 3rem 12%;
+	z-index: 10
+}
 
 @media only screen and (max-width: 1170px) {
 	#web .content {
@@ -223,8 +234,8 @@ h1,h2,p,h3,ul {
 		padding: 8rem;
 		border:0.4rem solid lightgray;
 		border-radius: 50%;
-		margin: 0 0 3rem 12%;
-		z-index: 10
+		margin: 0 0 3rem 5%;
+		z-index: 10;
 	}
 }
 
@@ -250,15 +261,6 @@ h1,h2,p,h3,ul {
 	border-bottom: 1px solid #444948;
 }
 
-#web .content .project article {
-	float: left;
-	position: relative;
-	padding: 6rem;
-	border:0.4rem solid lightgray;
-	border-radius: 50%;
-	margin: 0 0 3rem 12%;
-	z-index: 10
-}
 
 #web .content .project article a  {
 	position: absolute;
