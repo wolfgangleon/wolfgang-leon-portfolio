@@ -254,13 +254,13 @@ h1,h2,p,h3,ul,h4 {
 }
 	#web .content .project .karma .ktitle, .about .atitle {
 		position: absolute;
-		margin: -2rem 0 0 70%;
+		margin: -2rem 0 0 80%;
 	}
 
 	#web .content .project .karma .ktitle .karmatitle, .about .atitle .abouttitle {
 		position: absolute;
 		color:#444948;
-		font-size: 3rem;
+		font-size: 4rem;
 		line-height: 0rem;
 		text-transform: uppercase;
 
