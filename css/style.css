@@ -161,7 +161,7 @@ h1,h2,p,h3,ul {
 	}
 
 	.masthead nav .content ul li a h3 {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 	}
 }
 
@@ -220,13 +220,13 @@ h1,h2,p,h3,ul {
 
 @media only screen and (max-width: 1170px) {
 	#web .content {
-		margin: 0 0 26rem 0;
+		margin: 0 0 38rem 0;
 	}
 
 	#web .content .project article {
 		float: left;
 		position: relative;
-		padding: 8rem;
+		padding: 10rem;
 		border:0.4rem solid lightgray;
 		border-radius: 50%;
 		margin: 0 0 3rem 5%;
