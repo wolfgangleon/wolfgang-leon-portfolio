@@ -216,11 +216,15 @@ h1,h2,p,h3,ul,h4 {
 #web .content .project article {
 	float: left;
 	position: relative;
-	padding: 6rem;
+	padding: 8rem;
 	border:0.4rem solid lightgray;
 	border-radius: 50%;
 	margin: 0 0 3rem 12%;
 	z-index: 10
+}
+
+#web .content .project .karma .ktitle, .about .atitle, .times .timtitle {
+	display: none;
 }
 
 #web .content .project article a  {
@@ -252,7 +256,10 @@ h1,h2,p,h3,ul,h4 {
 	width: 332px;
 	margin: -166px 0 3rem -166px;
 }
+
+
 	#web .content .project .karma .ktitle, .about .atitle, .times .timtitle {
+		display: block;
 		position: absolute;
 		margin: -2rem 0 0 80%;
 	}
@@ -278,6 +285,8 @@ h1,h2,p,h3,ul,h4 {
 	#web .content .project .times .timtitle .subhack span {
 		font-size: 2rem;
 	}
+
+
 }
 
 #web {
@@ -303,7 +312,7 @@ h1,h2,p,h3,ul,h4 {
 }
 
 #web .content .project {
-	margin:4rem 0 8rem 0;
+	margin:5% 0 22% 0;
 }
 
 
@@ -356,8 +365,6 @@ h1,h2,p,h3,ul,h4 {
 	cursor: pointer;
 	border-color: #444948;
 }
-
-
 
 
 
