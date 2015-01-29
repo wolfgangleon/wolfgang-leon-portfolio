@@ -403,10 +403,14 @@ footer .content li {
 	text-align: center;
 	display: inline;
 	margin-left: 1rem;
-
 }
 
 footer .content .botpar p {
 	text-align: center;
 	text-transform: uppercase;
+}
+
+#foot .content .social ul li {
+	border:1px solid #444948 ;
+	border-radius:50%; 
 }
