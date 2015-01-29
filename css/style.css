@@ -237,7 +237,7 @@ h1,h2,p,h3,ul,h4 {
 
 @media only screen and (max-width: 1170px) {
 	#web .content {
-		margin: 0 0 38rem 0;
+		margin: 0 0 32rem 0;
 	}
 
 	#web .content .project article {
@@ -379,8 +379,18 @@ footer {
 	z-index: 100;
 }
 
-footer .content h3 {
-	text-align: center;
+#foot .content {
+	margin:0 50% 0 0;
+}
+
+@media screen and (max-width:1170px)  {
+	#foot .content {
+		margin:0;
+	}
+}
+
+footer .content h3  {
+	text-align:center;
 }
 
 footer .content ul {
@@ -390,12 +400,13 @@ footer .content ul {
 }
 
 footer .content li {
+	text-align: center;
 	display: inline;
 	margin-left: 1rem;
 
 }
 
-footer .content p {
+footer .content .botpar p {
 	text-align: center;
 	text-transform: uppercase;
 }
